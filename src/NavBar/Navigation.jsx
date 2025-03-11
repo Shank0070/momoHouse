@@ -40,7 +40,7 @@ function Navigation() {
         
           
         <div className="flex gap-5  justify-center items-center">
-          <NavLink className="text-white text-xl h-12 w-20 rounded-full bg-amber-600 justify-center items-center flex" to="/logIn">Log In</NavLink>
+          <NavLink className="text-white text-xl h-12 w-20 rounded-full bg-amber-600 justify-center items-center flex" to="/login">Log In</NavLink>
           <NavLink className="text-white text-xl h-12 w-20 rounded-full bg-amber-600 justify-center items-center flex" to="/signUp">Sign Up</NavLink>
         </div>
         
