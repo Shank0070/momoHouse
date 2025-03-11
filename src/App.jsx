@@ -12,11 +12,11 @@ import CartPage from './pages/CartPage'
 import Payment from './pages/Payment'
 import Success from './pages/Success'
 import Failure from './pages/Failure'
-import LogIn from './pages/Login'
 
 
 import SignUp from './pages/SignUp'
 import UserProfile from './pages/UserProfile'
+import Login from './pages/Login'
 
 
 
@@ -36,7 +36,7 @@ function App() {
         <Route path="/payment" element={<Payment/>}/>
         <Route path="/success" element={<Success/>}/>
         <Route path="/failure" element={<Failure/>}/>
-        <Route path="/logIn" element={<LogIn/>}/>
+        <Route path="/logIn" element={<Login/>}/>
         <Route path="/signUp" element={<SignUp/>}/>
         <Route path="/userProfile" element={<UserProfile/>}/>
        

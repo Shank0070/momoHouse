@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FcGoogle } from "react-icons/fc";
 import { useAuth0 } from "@auth0/auth0-react";
-function LogIn() {
+function Login() {
   const { loginWithRedirect } = useAuth0();
 
 
@@ -139,4 +139,4 @@ function LogIn() {
   );
 }
 
-export default LogIn;
+export default Login;
