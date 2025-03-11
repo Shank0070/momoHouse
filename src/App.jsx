@@ -16,7 +16,7 @@ import Failure from './pages/Failure'
 
 import SignUp from './pages/SignUp'
 import UserProfile from './pages/UserProfile'
-import Login from './pages/Login'
+// import Login from './pages/Login'
 
 
 
@@ -38,7 +38,7 @@ function App() {
         <Route path="/failure" element={<Failure/>}/>
         <Route path="/signUp" element={<SignUp/>}/>
         <Route path="/userProfile" element={<UserProfile/>}/>
-        <Route path="/login" element={<Login/>}/>
+        {/* <Route path="/login" element={<Login/>}/> */}
       
        
       
